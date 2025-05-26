@@ -25,8 +25,11 @@ public class AdminService {
 
     public Long createUser(UserDTO userDTO) {
 
-        AddressDTO addressDTO = userDTO.getAddress();
-        Address address = commonUtil.convertAddressDTO(addressDTO);
+        Address address =null;
+        if(userDTO.getAddress()!=null){
+            AddressDTO addressDTO = userDTO.getAddress();
+                address = commonUtil.convertAddressDTO(addressDTO);
+        }
 
         Flat flat = null;
         if(userDTO.getFlatNo() !=null){

@@ -26,7 +26,9 @@ public class UserDTO {
     @Size(max = 10)
     private String phone;
 
+    @NotNull
     private Role role;
+
     private String flatNo;
     private AddressDTO address;
 
