@@ -1,7 +1,5 @@
 package com.example.visitor_management_system.dto;
 
-
-import com.example.visitor_management_system.entity.Address;
 import com.example.visitor_management_system.enums.Role;
 import lombok.*;
 import jakarta.validation.constraints.*;

@@ -1,12 +1,9 @@
 package com.example.visitor_management_system.controller;
 
 import com.example.visitor_management_system.dto.VisitDTO;
-import com.example.visitor_management_system.dto.VisitorDTO;
 import com.example.visitor_management_system.enums.VisitStatus;
 import com.example.visitor_management_system.services.ResidentService;
-import jakarta.validation.constraints.Positive;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

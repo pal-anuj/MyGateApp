@@ -1,7 +1,5 @@
 package com.example.visitor_management_system.dto;
 
-import com.example.visitor_management_system.entity.Flat;
-import com.example.visitor_management_system.entity.Visitor;
 import com.example.visitor_management_system.enums.VisitStatus;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.validation.constraints.Max;

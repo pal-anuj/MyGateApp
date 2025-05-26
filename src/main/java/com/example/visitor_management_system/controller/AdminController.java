@@ -1,7 +1,6 @@
 package com.example.visitor_management_system.controller;
 
 import com.example.visitor_management_system.dto.UserDTO;
-import com.example.visitor_management_system.entity.User;
 import com.example.visitor_management_system.services.AdminService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
